@@ -1,0 +1,19 @@
+.Perfect{
+    background-color: black;
+}
+.Ph1{
+    font-size: 100px;
+}
+
+.btn{
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #056679;
+    font-family: sans-serif;
+  }
+  h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #49b1c6;
+  }
+  .todo-container {
+    /* center aakan use cheyyunnu  
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; */
+  
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .input-section {
+    background-color: #05556594;
+    padding: 19px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #0000005a; /*numerphisum color method treading meathod*/
+  }
+  .input-section input {
+    border-radius: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /*important this is used for reducing the size of box*/
+    background-color: #056679;
+  }
+  input::placeholder {
+    color: #7bc5d4;
+  }
+  ul {
+    padding: 0;
+    text-align: left;
+  }
+  
+  ul li {
+    display: flex;
+    list-style: none;
+    background-color: #055565;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #46c0d8;
+    box-shadow: 0 4px 6px #00000066;
+  }
+  /* this is the code for align the trash icon in right side of the li box,, also "display : flex" in the [ul li] section */
+  ul li i {
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+  }
+  
